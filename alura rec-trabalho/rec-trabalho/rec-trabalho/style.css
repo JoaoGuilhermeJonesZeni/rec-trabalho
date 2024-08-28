@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(135deg, #01102c, #081d42);
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    align-items: center;
+    background-color: #00091a;
+    color: #fffcfc;
+    display: flex;
+    justify-content: space-around;
+    padding: 5px 0;
+    display: inline-block;
+    display: flex;
+    justify-content: left;
+}
+
+.logo {
+    display: flex;
+    width: 120px;
+    height: auto;
+    margin: 20px;
+}
+
+main {
+    padding: 40px;
+    text-align: center;
+    font-size: 115%;
+    padding: 150px;
+}
+
+.titulo-bv {    
+    margin-top: 170px;
+    color: #ffffff;
+    font-size: 235%;
+    padding: 50px;
+}
+
+.titulo-mensagem {
+    margin-top: 220px;
+    color: #ffffff;
+    font-size: 235%;
+    padding: 50px;
+}
+
+.mensagem {
+    margin-top: 30px;
+    color: #ffffff;
+    padding: 10px;
+}
+
+.imagens {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+.cidade  {
+    max-width: 555px;
+    height: auto;
+    border-radius: 10px;
+    
+}
+
+.campo  {           
+    max-width: 555px;
+    display: fle;
+    height: auto;
+   justify-content: right;
+    border-radius: 10px;
+}  
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: linear-gradient(135deg, #004d00, #238543);
+    color: white;
+}
